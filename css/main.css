@@ -1,0 +1,125 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.main-btn {
+  background-color: #111b47;
+  color: white;
+  padding: 0.1rem 3rem;
+}
+
+.main-btn:hover {
+  color: #111b47;
+  background: transparent;
+  border: 1px solid #111b47;
+}
+
+.btn2 {
+  color: #111b47;
+  background: transparent;
+  border: 1px solid #111b47;
+}
+
+.btn2:hover {
+  color: white;
+  background-color: #111b47;
+}
+
+/* start nav */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  transition: 1s all;
+}
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .nav-link:focus {
+  color: #37447e;
+}
+
+.navbar .navbar-nav .nav-link {
+  color: #505f98;
+}
+
+.navbar .logo {
+  width: 100px;
+}
+
+.navbar-toggler {
+  color: wheat;
+  border-color: wheat;
+}
+
+.navbar .navbar-toggler:focus {
+  box-shadow: none;
+}
+
+/* end nav */
+/* start bannar */
+.bannar {
+  background-image: url(../img/designer_1.png);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center right;
+}
+
+/* end bannar */
+
+/* start intro */
+.intro .pad {
+  margin-top: 160px;
+}
+
+/* end intro */
+/* start contact */
+.contact {
+  background-color: #e7ecff;
+}
+
+.contact .buy {
+  width: 40%;
+  padding: 150px 0;
+}
+
+/* end contact */
+
+/* start footer */
+footer {
+  background-color: #cdd1d4;
+}
+
+footer .colors {
+  color: #37447e;
+}
+
+footer .ul {
+  list-style: none;
+  width: 250px;
+  padding-left: 0;
+  color: #111b47;
+}
+footer .ul a:focus,
+footer .ul a:hover {
+  color: #37447e;
+}
+
+footer li {
+  color: #111b47;
+}
+
+footer .icon {
+  width: 240px;
+  font-weight: bold;
+  color: #b0b8bc;
+}
+footer .icon i {
+  transition: 1s;
+  cursor: pointer;
+  font-size: 30px;
+}
+footer .icon svg:hover path {
+  fill: #111b47;
+}
+/* end footer */
